@@ -86,6 +86,7 @@ function Home() {
               </label>
               <input
                 value={qrCodeImageSize}
+                type='number'
                 onChange={(e) => setQrCodeImageSize(e.target.value)}
                 id="imageInput"
                 className="form-control mb-3"
